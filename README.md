@@ -36,8 +36,8 @@ We’re expecting the 2 dice version of the game.
 ## Submission
 Hopefully with you reading this, we would've already provided access to this repo to your github account to read the instructions! 
 
-Please fork the repo, push your commits to your forked repo as well as any additional instructions you want to supply to get the game running. 
+Please create a github repo under your account, push your commits to your  repo as well as any additional instructions you want to supply to get the game running. 
 
-Look to provide your repo link to the HR/Recruitment contact when ready for our engineers to review, who will be asking you questions about this task and also potentially discuss expanding/refactoring your code during the interview.
+Then look to provide your repo link to the HR/Recruitment contact when ready for our engineers to review, who will be asking you questions about this task and also potentially discuss expanding/refactoring your code during the interview.
 
 Good luck and enjoy!
