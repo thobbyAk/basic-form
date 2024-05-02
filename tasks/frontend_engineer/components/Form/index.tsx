@@ -15,10 +15,6 @@ const Form = () => {
 
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
-		if (emailRef === null || checkboxRef === null) {
-			return;
-		}
-
 		const payload: AlertState = {
 			message: "Form submitted successfully",
 			showAlert: true,
