@@ -23,6 +23,7 @@ export const InputForm = styled.input`
     outline: none;
     width: 100%;
     height: 100%;
+    color: ${({ theme }) => theme.colors.primary};
     padding: 12px 20px;
     &:focus-within {
         border: 2px solid #545f7d;
@@ -50,6 +51,7 @@ export const InputSelect = styled.select`
     overflow: hidden;
     transition: 0.3s ease;
     position: relative;
+    color: ${({ theme }) => theme.colors.primary};
     outline: none;
     width: 100%;
     height: 100%;
@@ -74,6 +76,9 @@ export const CheckboxField = styled.div`
     display: inline-flex;
     flex-direction: row;
     gap: 4;
+    label {
+        color: ${({ theme }) => theme.colors.primary};
+    }
     input {
         appearance: none;
         -webkit-appearance: none;
