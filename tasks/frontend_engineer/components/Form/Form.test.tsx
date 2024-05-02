@@ -5,9 +5,6 @@ import { Provider } from "react-redux";
 import store from "@/store";
 import { setMessage, alertSlice, AlertState } from "../../reducer/alertReducer";
 
-// jest.mock("../../reducer/alertReducer.ts", () => ({
-// 	setMessage: jest.fn(),
-// }));
 const previousState: AlertState = {
 	message: "",
 	showAlert: false,

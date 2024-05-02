@@ -1,13 +1,6 @@
 import styled from "styled-components";
 
 
-// export const Container = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 100vh;
-// `;
-
 export const FormContainer = styled.form`
   margin-top: 40px;
   width: 300px;
@@ -105,7 +98,7 @@ export const CheckboxField = styled.div`
           }
         
           &:checked:before {
-            opacity: 1; /* Make the checkmark visible when checked */
+            opacity: 1; 
           }
         
     }

@@ -8,6 +8,7 @@ const SelectInput = forwardRef<
 	const [category, setCategory] = useState("");
 	return (
 		<InputSelect
+			{...props}
 			ref={ref}
 			value={category}
 			onChange={(e) => setCategory((e.target as HTMLSelectElement).value)}
