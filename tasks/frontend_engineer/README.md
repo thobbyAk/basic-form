@@ -4,6 +4,8 @@ To begin, you need to install all the dependencies for the site. To do this you 
 
 Once this is complete, run `yarn dev` to start the server and head to http://localhost:3000/.
 
+run `yarn test` to run the test cases
+
 ## THE TEST
 
 Navigate to the new page with the url 'newsletter-signup' (http://localhost:3000/newsletter-signup).
