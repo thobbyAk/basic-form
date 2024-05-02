@@ -1,16 +1,21 @@
-import React from 'react'
+import React from "react";
 import AlertComponent from "./AlertStructure";
+import { useAppStateSelector } from "@/store/hooks";
 
 const Alert = () => {
-  const message = 'Replace this with content from Redux'
+	const { message, showAlert } = useAppStateSelector(
+		(state) => state.alertState
+	);
 
-  const componentProps = {
-    message
-  }
+	const componentProps = {
+		message,
+	};
 
-  return (
-    <AlertComponent {...componentProps} />
-  );
-}
+	return (
+		<React.Fragment>
+			{showAlert && <AlertComponent {...componentProps} />}
+		</React.Fragment>
+	);
+};
 
 export default Alert;

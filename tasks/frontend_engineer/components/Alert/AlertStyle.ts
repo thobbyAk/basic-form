@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AlertContainer = styled.div`
-  display: none;
+  // display: none;
   align-items: center;
   justify-content: center;
   width: 100%;
