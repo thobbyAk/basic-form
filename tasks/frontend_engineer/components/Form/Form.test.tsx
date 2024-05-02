@@ -84,7 +84,7 @@ describe("Form Component", () => {
 		const agreeCheckbox = getByLabelText("I agree to the terms and conditions");
 		fireEvent.click(agreeCheckbox);
 		fireEvent.change(emailInput, { target: { value: "email.com" } });
-
+		fireEvent.click(submitButton);
 		await waitFor(() => {
 			expect(alertSlice.reducer(previousState, setMessage(payload))).toEqual(
 				payload
