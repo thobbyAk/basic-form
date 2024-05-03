@@ -23,7 +23,7 @@ export const InputForm = styled.input`
     outline: none;
     width: 100%;
     height: 100%;
-    color: #111
+    color: #111;
     padding: 12px 20px;
     &:focus-within {
         border: 2px solid #545f7d;

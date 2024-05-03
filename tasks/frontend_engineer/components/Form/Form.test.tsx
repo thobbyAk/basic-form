@@ -11,10 +11,6 @@ const previousState: AlertState = {
 };
 
 describe("Form Component", () => {
-	afterEach(() => {
-		jest.clearAllMocks();
-	});
-
 	test("it should match the snapshot and render", async () => {
 		const { container } = render(
 			<Provider store={store}>

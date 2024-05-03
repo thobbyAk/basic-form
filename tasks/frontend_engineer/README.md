@@ -20,3 +20,4 @@ The required attribute is added to the email input field and the checkbox input 
 If validation fails (e.g., required fields are not filled), the form submission is prevented using e.preventDefault(), and the user is notified of the validation errors.
 
 In the event of validation errors, the form will display error messages, indicating which fields need to be corrected.
+A message is shown to notigy the user that "Form submitted successfully" .

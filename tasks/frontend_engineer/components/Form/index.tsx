@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
-import Input from "./input";
-import Button from "./button";
-import CheckBoxInput from "./checkBoxInput";
-import SelectInput from "./selectInput";
+import Input from "../FormComponents/input";
+import Button from "../FormComponents/button";
+import CheckBoxInput from "../FormComponents/checkBoxInput";
+import SelectInput from "../FormComponents/selectInput";
 import { CheckboxField, FormContainer } from "./FormStyle";
 import { useAppDispatch } from "@/store/hooks";
 import { AlertState, setMessage } from "@/reducer/alertReducer";

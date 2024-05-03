@@ -1,5 +1,5 @@
 import React, { ButtonHTMLAttributes, HTMLProps, forwardRef } from "react";
-import { ButtonContainer } from "./FormStyle";
+import { ButtonContainer } from "../Form/FormStyle";
 
 const Button = forwardRef<
 	HTMLButtonElement,

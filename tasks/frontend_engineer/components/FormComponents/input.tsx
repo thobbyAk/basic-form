@@ -1,5 +1,5 @@
 import React, { HTMLProps, forwardRef, useState } from "react";
-import { InputForm } from "./FormStyle";
+import { InputForm } from "../Form/FormStyle";
 
 const Input = forwardRef<HTMLInputElement, HTMLProps<HTMLInputElement>>(
 	({ ...props }, ref) => {

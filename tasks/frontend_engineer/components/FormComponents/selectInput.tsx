@@ -1,5 +1,5 @@
 import React, { SelectHTMLAttributes, forwardRef, useState } from "react";
-import { InputSelect } from "./FormStyle";
+import { InputSelect } from "../Form/FormStyle";
 
 const SelectInput = forwardRef<
 	HTMLSelectElement,
